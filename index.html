@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Navjot Barar</title>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1613780713276200');
+fbq('track', 'PageView');
+</script>
+
+<noscript>
+<img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1613780713276200&ev=PageView&noscript=1"/>
+</noscript>
+<!-- End Meta Pixel Code -->
+
+<link href="vendor/external_0.css" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+height:100vh;
+overflow:hidden;
+display:flex;
+align-items:center;
+justify-content:center;
+background:radial-gradient(circle at center,#0f4c6e,#061f2c);
+color:#fff;
+}
+
+/* Floating particles */
+.particle{
+position:absolute;
+width:8px;
+height:8px;
+background:rgba(255,255,255,0.4);
+border-radius:50%;
+animation:float 10s linear infinite;
+}
+
+@keyframes float{
+from{transform:translateY(100vh) scale(0.5);opacity:0;}
+50%{opacity:1;}
+to{transform:translateY(-10vh) scale(1);opacity:0;}
+}
+
+/* Card */
+.card{
+width:95%;
+max-width:420px;
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(20px);
+padding:35px 20px;
+border-radius:30px;
+text-align:center;
+box-shadow:0 15px 50px rgba(0,0,0,0.5);
+animation:fadeIn 1.5s ease forwards;
+opacity:0;
+}
+
+@keyframes fadeIn{
+to{opacity:1;}
+}
+
+.logo{
+width:110px;
+height:110px;
+border-radius:40%;
+margin:-85px auto 15px;
+border:6px solid #fff;
+background:url('tg.jpg') center/cover no-repeat;
+}
+
+h1{
+font-size:24px;
+font-weight:700;
+margin-bottom:15px;
+}
+
+p{
+font-size:15px;
+line-height:1.6;
+margin-bottom:25px;
+}
+
+/* CTA Button */
+.btn{
+position:relative;
+overflow:hidden;
+display:flex;
+align-items:center;
+justify-content:center;
+gap:10px;
+width:100%;
+padding:16px;
+border-radius:50px;
+text-decoration:none;
+font-size:18px;
+font-weight:600;
+color:#fff;
+background:linear-gradient(90deg,#229ED9,#0A6CFF);
+box-shadow:0 0 25px rgba(34,158,217,0.7);
+transition:0.3s;
+animation:pulseGlow 2s infinite alternate;
+}
+
+.btn:hover{
+transform:scale(1.08);
+}
+
+@keyframes pulseGlow{
+from{
+box-shadow:0 0 20px rgba(34,158,217,0.6),
+0 0 40px rgba(34,158,217,0.4);
+}
+to{
+box-shadow:0 0 35px rgba(34,158,217,1),
+0 0 60px rgba(34,158,217,0.8);
+}
+}
+
+.btn::before{
+content:"";
+position:absolute;
+top:0;
+left:-100%;
+width:50%;
+height:100%;
+background:linear-gradient(
+120deg,
+rgba(255,255,255,0.1) 0%,
+rgba(255,255,255,0.7) 50%,
+rgba(255,255,255,0.1) 100%
+);
+transform:skewX(-25deg);
+animation:shine 3s infinite;
+}
+
+@keyframes shine{
+0%{left:-100%;}
+60%{left:120%;}
+100%{left:120%;}
+}
+
+.redirect{
+margin-top:20px;
+font-size:14px;
+opacity:0.9;
+}
+
+.agency{
+margin-top:5px;
+font-size:14px;
+}
+
+.agency a{
+color:#2ec4ff;
+text-decoration:none;
+font-weight:600;
+}
+
+.disclaimer{
+margin-top:25px;
+font-size:12px;
+opacity:0.75;
+line-height:1.5;
+}
+</style>
+</head>
+
+<body>
+
+<script>
+for(let i=0;i<25;i++){
+let particle=document.createElement("div");
+particle.className="particle";
+particle.style.left=Math.random()*100+"%";
+particle.style.animationDuration=(5+Math.random()*10)+"s";
+particle.style.opacity=Math.random();
+document.body.appendChild(particle);
+}
+</script>
+
+<div class="card">
+
+<div class="logo"></div>
+
+<h1>👑 Navjot Barar 👑</h1>
+
+<p>
+Join our Channel for daily updates educational content ✅ <br>
+Daily Free Trading Signals on Channel 📈
+</p>
+
+<a href="https://telegram.me/+wV8-wKQdxBAwN2U1" 
+class="btn"
+onclick="fbq('track','Subscribe');">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="white" viewBox="0 0 24 24">
+<path d="M9.036 16.569l-.39 5.473c.559 0 .801-.24 1.091-.528l2.621-2.508 5.432 3.975c.996.549 1.705.26 1.953-.923l3.541-16.57c.294-1.372-.496-1.91-1.469-1.547L1.357 9.123c-1.336.518-1.317 1.268-.227 1.605l5.397 1.685L19.87 5.633c.629-.418 1.202-.187.73.231"/>
+</svg>
+
+Join Channel Now
+</a>
+
+<div class="redirect">
+Redirecting in <span id="count">15</span> seconds...
+</div>
+
+<div class="agency">
+This ads managed by 
+<a href="" target="_blank">Ansh Media</a>
+</div>
+
+<div class="disclaimer">
+Disclaimer: This channel is strictly for educational purposes only. 
+No investment advice or guaranteed returns. Financial markets involve risk.
+</div>
+
+</div>
+
+<script>
+let time=15;
+let count=document.getElementById("count");
+
+let timer=setInterval(()=>{
+time--;
+count.innerText=time;
+
+if(time<=0){
+clearInterval(timer);
+
+fbq('track','Subscribe');
+
+window.location.href="https://telegram.me/+wV8-wKQdxBAwN2U1";
+}
+
+},1000);
+</script>
+
+</body>
+</html>
+```
